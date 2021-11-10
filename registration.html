@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Регистрация пользователя</title>
+    </head>
+    <body>
+        <h1>Регистрация пользователя</h1>
+        <form name="registration" method="post" action="end.html" >
+        <fieldset>
+            <p><label for="name">Имя:</label>
+            <br>
+            <input type="text" id="name" placeholder="Иван" required></p>
+            
+            <p><label for="surname">Фамилия:</label>
+            <br>
+            <input type="text" id="surname" placeholder="Петров" required></p>
+            
+            <p><label for="mail">Почта:</label>
+            <br>
+            <input type="text" id="mail" placeholder="mail@example.com" required></p>
+            </p>
+
+            <hr>
+
+            <p>Курсы:
+            </p> 
+            <p>
+            <input type="radio" value="Drupal 7" name="kurs" required>Drupal 7
+            </p>
+            <p>
+            <input type="radio" value="Drupal 8" name="kurs" required>Drupal 8
+            </p>
+
+            <p>Дополнительная информация:
+            <br>
+            <textarea rows="9" cols="45" required> </textarea>
+            </p>
+            <p>
+                
+            <button type="submit" value="Отправить" >Отправить</button>
+            <button type="reset" >Очистить</button>
+            </p>
+        </fieldset>
+        </form> 
+    </body>
+</html>
